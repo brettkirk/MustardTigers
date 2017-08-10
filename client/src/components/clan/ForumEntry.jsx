@@ -36,6 +36,8 @@ class ForumEntry extends React.Component {
 
   render() {
 
+    //I don't know how to get two fields side by side in bootstrap, ask talis tomorrow
+
     return (
       <Grid>
         <Row className="show-grid">
