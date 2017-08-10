@@ -31,4 +31,4 @@ class MemberEntry extends React.Component {
   }
 }
 
-export default MemberEntry
+export default MemberEntry;

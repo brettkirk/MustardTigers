@@ -1,9 +1,9 @@
 import React from 'react'
 import Forum from './Forum.jsx'
 import About from './About.jsx'
-import Members from './Members.jsx'
-import Events from './Events.jsx'
-import { Switch, Route } from 'react-router-dom'
+import Members from './Members.jsx';
+import Events from './Events.jsx';
+import { Switch, Route } from 'react-router-dom';
 
 /**
  * Class representing the React Clan Container Component.
@@ -17,7 +17,7 @@ class Clan extends React.Component {
 
   render() {
 
-    var imgsrc = ""
+    var imgsrc = "";
 
     return (
       <div className='wrapper'>
@@ -57,4 +57,4 @@ class Clan extends React.Component {
   }
 }
 
-export default Clan
+export default Clan;
