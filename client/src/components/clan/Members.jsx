@@ -8,7 +8,7 @@ import { Grid, Row, Col } from 'react-bootstrap';
  * @extends Members
  */
 
-class MemberEntry extends React.Component {
+class Members extends React.Component {
   constructor (props) {
     super(props);
   }
@@ -31,4 +31,4 @@ class MemberEntry extends React.Component {
   }
 }
 
-export default MemberEntry;
+export default Members;
